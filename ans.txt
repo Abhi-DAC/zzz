@@ -1,0 +1,9 @@
+que 1->
+que2-> ls ~ -i
+que3->
+	vim data.txt	
+	grep -E -c "is" data.txt
+	wc data.txt
+
+que 4-> vim sample.txt
+	grep -v "a" sample.txt | tac
